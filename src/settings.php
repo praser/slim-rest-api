@@ -14,6 +14,15 @@ return [
       'name' => 'slim-app',
       'path' => __DIR__ . '/../logs/app.log',
       'level' => \Monolog\Logger::DEBUG
+    ],
+
+    //Configurações do PDO
+    'db' => [
+      'driver' => 'pdo_mysql',
+      'host' => 'localhost',
+      'user' => 'root',
+      'password' => 'root',
+      'dbname' => 'api'
     ]
   ]
 ];

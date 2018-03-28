@@ -1,2 +1,4 @@
-!vendor/.gitkeep
-!logs/.gitkeep
+/vendor
+!/vendor/.gitkeep
+/logs
+!/logs/.gitkeep
